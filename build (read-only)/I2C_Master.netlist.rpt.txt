@@ -1,0 +1,50 @@
+Static Timing Analysis:
+ 
+ABC: WireLoad = "none"  Gates =    159 ( 17.6 %)   Cap = 41.2 ff (  4.9 %)   Area =    16416.00 ( 89.3 %)   Delay =  1142.21 ps  ( 11.9 %)               
+ABC: Path  0 --       3 : 0   12 pi      A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout = 258.8 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --      84 : 2    6 NOR2X1  A =  96.00  Df = 354.8   -5.4 ps  S = 502.2 ps  Cin = 22.4 ff  Cout = 171.0 ff  Cmax = 427.7 ff  G =  761  
+ABC: Path  2 --      85 : 1    4 INVX4   A =  96.00  Df = 511.5  -33.6 ps  S = 160.8 ps  Cin = 54.8 ff  Cout = 103.7 ff  Cmax =1666.8 ff  G =  188  
+ABC: Path  3 --     102 : 2    2 NOR2X1  A =  96.00  Df = 660.4  -36.0 ps  S = 178.4 ps  Cin = 22.4 ff  Cout =  45.1 ff  Cmax = 427.7 ff  G =  200  
+ABC: Path  4 --     141 : 3    1 OAI21X1 A =  92.00  Df = 951.2  -57.0 ps  S = 142.1 ps  Cin = 23.8 ff  Cout =  22.6 ff  Cmax = 405.5 ff  G =   94  
+ABC: Path  5 --     142 : 3    1 NAND3X1 A = 144.00  Df =1069.5  -97.9 ps  S = 189.0 ps  Cin = 22.3 ff  Cout =  27.4 ff  Cmax = 386.4 ff  G =  122  
+ABC: Path  6 --     143 : 4    1 OAI22X1 A = 160.00  Df =1142.2  -95.1 ps  S = 100.5 ps  Cin = 26.9 ff  Cout =   0.0 ff  Cmax = 399.6 ff  G =    0  
+
+
+Longest Path Summary:
+Path _321_/CLK to _300_/D delay 2455.7 ps
+
+Design Summary:
+
+9. Printing statistics.
+
+=== I2C_Master ===
+
+   Number of wires:                148
+   Number of wire bits:            206
+   Number of public wires:          15
+   Number of public wire bits:      48
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                191
+     AND2X1                          6
+     AND2X2                          1
+     AOI21X1                        12
+     AOI22X1                         4
+     BUFX2                           3
+     DFFSR                          32
+     INVX1                          15
+     INVX2                           5
+     INVX4                           3
+     INVX8                           2
+     MUX2X1                          1
+     NAND2X1                        37
+     NAND3X1                        14
+     NOR2X1                         12
+     OAI21X1                        40
+     OAI22X1                         2
+     OR2X1                           1
+     OR2X2                           1
+
+   Chip area for this module: 38944.000000
+
